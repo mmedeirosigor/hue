@@ -1,0 +1,221 @@
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\ApplicationInsights.config
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\HelpDesk.dll.config
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\HelpDesk.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\HelpDesk.pdb
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\csc.exe
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\csc.exe.config
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\csc.rsp
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\csi.exe
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\csi.exe.config
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\csi.rsp
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.AppContext.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.Console.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.IO.Compression.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.IO.Pipes.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.Security.Claims.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.ValueTuple.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.Xml.XPath.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\vbc.exe
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\vbc.exe.config
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\vbc.rsp
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\VBCSCompiler.exe
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Antlr3.Runtime.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\EntityFramework.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\EntityFramework.SqlServer.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Microsoft.AI.Web.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Microsoft.ApplicationInsights.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Newtonsoft.Json.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Net.Http.Formatting.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.Helpers.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.Http.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.Http.WebHost.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.Mvc.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.Optimization.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.Razor.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.WebPages.Deployment.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.WebPages.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.WebPages.Razor.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\WebGrease.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\EntityFramework.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\EntityFramework.SqlServer.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Newtonsoft.Json.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Net.Http.Formatting.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.Helpers.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.Http.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.Http.WebHost.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.Mvc.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.Optimization.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.Razor.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.WebPages.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.WebPages.Deployment.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Web.WebPages.Razor.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Antlr3.Runtime.pdb
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Microsoft.AI.Web.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\pt-br\System.Web.Http.WebHost.resources.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\obj\Debug\HelpDesk.csproj.CoreCompileInputs.cache
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\obj\Debug\HelpDesk.csproj.CopyComplete
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\obj\Debug\HelpDesk.dll
+C:\Users\pelli\source\repos\HelpDesk\HelpDesk\obj\Debug\HelpDesk.pdb
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\ApplicationInsights.config
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\HelpDesk.dll.config
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\HelpDesk.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\HelpDesk.pdb
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\csc.exe
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\csc.exe.config
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\csc.rsp
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\csi.exe
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\csi.exe.config
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\csi.rsp
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.AppContext.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.Console.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.IO.Compression.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.Security.Claims.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.ValueTuple.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\vbc.exe
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\vbc.exe.config
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\vbc.rsp
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\VBCSCompiler.exe
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Antlr3.Runtime.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\EntityFramework.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\EntityFramework.SqlServer.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Microsoft.AI.Web.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Newtonsoft.Json.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Net.Http.Formatting.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.Helpers.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.Http.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.Http.WebHost.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.Mvc.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.Optimization.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.Razor.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.WebPages.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.WebPages.Razor.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\WebGrease.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\EntityFramework.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\EntityFramework.SqlServer.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Newtonsoft.Json.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Net.Http.Formatting.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.Helpers.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.Http.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.Http.WebHost.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.Mvc.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.Optimization.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.Razor.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.WebPages.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Web.WebPages.Razor.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Antlr3.Runtime.pdb
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Microsoft.AI.Web.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\pt-br\System.Web.Helpers.resources.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\pt-br\System.Web.Http.WebHost.resources.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\pt-br\System.Web.Mvc.resources.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\pt-br\System.Web.Optimization.resources.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\pt-br\System.Web.Razor.resources.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\pt-br\System.Web.WebPages.resources.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\pt-br\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\bin\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\obj\Debug\HelpDesk.csprojAssemblyReference.cache
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\obj\Debug\HelpDesk.csproj.CoreCompileInputs.cache
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\obj\Debug\HelpDesk.csproj.CopyComplete
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\obj\Debug\HelpDesk.dll
+C:\Users\Matheus Pellisoli\Desktop\HelpDesk\HelpDesk\obj\Debug\HelpDesk.pdb

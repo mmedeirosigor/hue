@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EvolutionModelStoreContainer" CdmEntityContainer="Default">
+    <EntitySetMapping Name="Chamados">
+      <EntityTypeMapping TypeName="EvolutionModel.Chamados">
+        <MappingFragment StoreEntitySet="Chamados">
+          <ScalarProperty Name="Cod_Chamado" ColumnName="Cod_Chamado" />
+          <ScalarProperty Name="Desc_Chamado" ColumnName="Desc_Chamado" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Cod_Produto" ColumnName="Cod_Produto" />
+          <ScalarProperty Name="Cod_Atendimento" ColumnName="Cod_Atendimento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Cliente">
+      <EntityTypeMapping TypeName="EvolutionModel.Cliente">
+        <MappingFragment StoreEntitySet="Cliente">
+          <ScalarProperty Name="Cod_Cliente" ColumnName="Cod_Cliente" />
+          <ScalarProperty Name="Nome" ColumnName="Nome" />
+          <ScalarProperty Name="Razao_Social" ColumnName="Razao_Social" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="CNPJ" ColumnName="CNPJ" />
+          <ScalarProperty Name="Email_Contato" ColumnName="Email_Contato" />
+          <ScalarProperty Name="End_Completo" ColumnName="End_Completo" />
+          <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+          <ScalarProperty Name="Stat_Cliente" ColumnName="Stat_Cliente" />
+          <ScalarProperty Name="ID_usuario" ColumnName="ID_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Funcionario">
+      <EntityTypeMapping TypeName="EvolutionModel.Funcionario">
+        <MappingFragment StoreEntitySet="Funcionario">
+          <ScalarProperty Name="Cod_Funcionario" ColumnName="Cod_Funcionario" />
+          <ScalarProperty Name="Nome_Completo" ColumnName="Nome_Completo" />
+          <ScalarProperty Name="Nome_Tratamento" ColumnName="Nome_Tratamento" />
+          <ScalarProperty Name="CPF" ColumnName="CPF" />
+          <ScalarProperty Name="End_Completo" ColumnName="End_Completo" />
+          <ScalarProperty Name="Telefone" ColumnName="Telefone" />
+          <ScalarProperty Name="Email_Contato" ColumnName="Email_Contato" />
+          <ScalarProperty Name="Stat_Funcionario" ColumnName="Stat_Funcionario" />
+          <ScalarProperty Name="ID_usuario" ColumnName="ID_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Produto">
+      <EntityTypeMapping TypeName="EvolutionModel.Produto">
+        <MappingFragment StoreEntitySet="Produto">
+          <ScalarProperty Name="Cod_Produto" ColumnName="Cod_Produto" />
+          <ScalarProperty Name="Desc_Produto" ColumnName="Desc_Produto" />
+          <ScalarProperty Name="Cod_Cliente" ColumnName="Cod_Cliente" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TipoAtendimento">
+      <EntityTypeMapping TypeName="EvolutionModel.TipoAtendimento">
+        <MappingFragment StoreEntitySet="TipoAtendimento">
+          <ScalarProperty Name="Cod_Atendimento" ColumnName="Cod_Atendimento" />
+          <ScalarProperty Name="Descricao" ColumnName="Descricao" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Prioridade" ColumnName="Prioridade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Usuario">
+      <EntityTypeMapping TypeName="EvolutionModel.Usuario">
+        <MappingFragment StoreEntitySet="Usuario">
+          <ScalarProperty Name="Acesso" ColumnName="Acesso" />
+          <ScalarProperty Name="ID_usuario" ColumnName="ID_usuario" />
+          <ScalarProperty Name="Senha" ColumnName="Senha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

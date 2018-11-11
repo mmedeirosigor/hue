@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EvolutionModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Chamados">
+    <Key>
+      <PropertyRef Name="Cod_Chamado" />
+    </Key>
+    <Property Name="Cod_Chamado" Type="varchar" MaxLength="8" Nullable="false" />
+    <Property Name="Desc_Chamado" Type="varchar" MaxLength="500" />
+    <Property Name="Data" Type="date" />
+    <Property Name="Cod_Produto" Type="varchar" MaxLength="5" />
+    <Property Name="Cod_Atendimento" Type="varchar" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="Cod_Cliente" />
+    </Key>
+    <Property Name="Cod_Cliente" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="Nome" Type="varchar" MaxLength="50" />
+    <Property Name="Razao_Social" Type="varchar" MaxLength="30" />
+    <Property Name="CPF" Type="varchar" MaxLength="11" />
+    <Property Name="CNPJ" Type="varchar" MaxLength="12" />
+    <Property Name="Email_Contato" Type="varchar" MaxLength="30" />
+    <Property Name="End_Completo" Type="varchar" MaxLength="30" />
+    <Property Name="Telefone" Type="varchar" MaxLength="11" />
+    <Property Name="Stat_Cliente" Type="bit" />
+    <Property Name="ID_usuario" Type="varchar" MaxLength="8" />
+  </EntityType>
+  <EntityType Name="Funcionario">
+    <Key>
+      <PropertyRef Name="Cod_Funcionario" />
+    </Key>
+    <Property Name="Cod_Funcionario" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="Nome_Completo" Type="varchar" MaxLength="30" />
+    <Property Name="Nome_Tratamento" Type="varchar" MaxLength="30" />
+    <Property Name="CPF" Type="varchar" MaxLength="11" />
+    <Property Name="End_Completo" Type="varchar" MaxLength="50" />
+    <Property Name="Telefone" Type="varchar" MaxLength="11" />
+    <Property Name="Email_Contato" Type="varchar" MaxLength="30" />
+    <Property Name="Stat_Funcionario" Type="bit" />
+    <Property Name="ID_usuario" Type="varchar" MaxLength="8" />
+  </EntityType>
+  <EntityType Name="Produto">
+    <Key>
+      <PropertyRef Name="Cod_Produto" />
+    </Key>
+    <Property Name="Cod_Produto" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="Desc_Produto" Type="varchar" MaxLength="100" />
+    <Property Name="Cod_Cliente" Type="varchar" MaxLength="5" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="TipoAtendimento">
+    <Key>
+      <PropertyRef Name="Cod_Atendimento" />
+    </Key>
+    <Property Name="Cod_Atendimento" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="Descricao" Type="varchar" MaxLength="300" />
+    <Property Name="Data" Type="date" />
+    <Property Name="Prioridade" Type="varchar" MaxLength="8" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="ID_usuario" />
+    </Key>
+    <Property Name="Acesso" Type="bit" />
+    <Property Name="ID_usuario" Type="varchar" MaxLength="8" Nullable="false" />
+    <Property Name="Senha" Type="varchar" MaxLength="8" />
+  </EntityType>
+  <Association Name="FK__Chamados__Cod_At__4316F928">
+    <End Role="TipoAtendimento" Type="Self.TipoAtendimento" Multiplicity="0..1" />
+    <End Role="Chamados" Type="Self.Chamados" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoAtendimento">
+        <PropertyRef Name="Cod_Atendimento" />
+      </Principal>
+      <Dependent Role="Chamados">
+        <PropertyRef Name="Cod_Atendimento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Chamados__Cod_Pr__4222D4EF">
+    <End Role="Produto" Type="Self.Produto" Multiplicity="0..1" />
+    <End Role="Chamados" Type="Self.Chamados" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produto">
+        <PropertyRef Name="Cod_Produto" />
+      </Principal>
+      <Dependent Role="Chamados">
+        <PropertyRef Name="Cod_Produto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Cliente__ID_usua__44FF419A">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="0..1" />
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="ID_usuario" />
+      </Principal>
+      <Dependent Role="Cliente">
+        <PropertyRef Name="ID_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Funcionar__ID_us__440B1D61">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="0..1" />
+    <End Role="Funcionario" Type="Self.Funcionario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="ID_usuario" />
+      </Principal>
+      <Dependent Role="Funcionario">
+        <PropertyRef Name="ID_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Produto__Cod_Cli__3D5E1FD2">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Produto" Type="Self.Produto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="Cod_Cliente" />
+      </Principal>
+      <Dependent Role="Produto">
+        <PropertyRef Name="Cod_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="EvolutionModelStoreContainer">
+    <EntitySet Name="Chamados" EntityType="Self.Chamados" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Funcionario" EntityType="Self.Funcionario" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Produto" EntityType="Self.Produto" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TipoAtendimento" EntityType="Self.TipoAtendimento" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__Chamados__Cod_At__4316F928" Association="Self.FK__Chamados__Cod_At__4316F928">
+      <End Role="TipoAtendimento" EntitySet="TipoAtendimento" />
+      <End Role="Chamados" EntitySet="Chamados" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Chamados__Cod_Pr__4222D4EF" Association="Self.FK__Chamados__Cod_Pr__4222D4EF">
+      <End Role="Produto" EntitySet="Produto" />
+      <End Role="Chamados" EntitySet="Chamados" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Cliente__ID_usua__44FF419A" Association="Self.FK__Cliente__ID_usua__44FF419A">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Cliente" EntitySet="Cliente" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Funcionar__ID_us__440B1D61" Association="Self.FK__Funcionar__ID_us__440B1D61">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Funcionario" EntitySet="Funcionario" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Produto__Cod_Cli__3D5E1FD2" Association="Self.FK__Produto__Cod_Cli__3D5E1FD2">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Produto" EntitySet="Produto" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

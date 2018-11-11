@@ -1,0 +1,146 @@
+﻿@model  HelpDesk.Models.Produto
+@{ 
+    if (ViewBag.Cod_usuario == null) {
+
+        Response.Redirect("~/");
+
+        return;
+    }
+}
+
+
+<!doctype html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Entrar</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Content/toastr.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+               <div class="container">
+
+                   <div class="container">
+                                           
+                       <div class="row">
+                           @if (ViewBag.IsCliente)
+                           {
+                               <hr />
+                               <div class="mt-2 row  col-md-12">
+                                   <h2>Novo chamado</h2>
+                               </div>
+                     
+
+                               @:<div class="mt-2 row  col-md-12">
+                                   <div class="col-sm-12 col-md-12 col-lg-6">
+
+                                       <form enctype="multipart/form-data">
+                                           <div class="form-group">
+
+                                               <label for="CodProduto">Produto</label>
+                                               <select class="form-control" id="IDProd">
+                                                   @{
+                                                       List<HelpDesk.Models.Produto> produtos = ViewBag.Produtos;
+                                                       try
+                                                       {
+                                                           foreach (var p in produtos)
+                                                           {
+                                                               <option value="@p.Cod_Produto">@p.Desc_Produto</option>
+                                                           }
+                                                       }
+                                                       catch
+                                                       {
+
+                                                       }
+                                                   }
+                                               </select>
+                                           </div>
+                                           <div class="form-group">
+                                               <label for="CodProduto">Assunto</label>
+                                               <input type="text" class="form-control" id="AtendimentoAssunto" aria-describedby="emailHelp">
+                                           </div>
+                                   </div>
+
+                                   @:<div class="col-sm-12 col-md-12 col-lg-6">
+
+                                       <div class="form-group">
+                                           <label for="CodProduto">Descrição</label>
+                                           <textarea class="form-control rounded-0" id="ChamadoDescricao"></textarea>
+                                       </div>
+
+                                       <div class="form-group">
+                                           <input type="file" id="FileUpload" class="btn btn-light col-md-12">
+                                       </div>
+
+                                       <button type="button" id="chamadoAdd" class="btn btn-success">Adicionar</button>
+                                       <button type="button" class="btn btn-secondary">Limpar</button>
+                                       @:</form>
+
+                                   @:</div>
+
+                               @:</div>
+                           }
+                       </div>
+                   </div>
+                    
+                   <hr />
+
+                    <h2 class="mt-2">Chamados em aberto</h2>
+
+                    <div class=" mt-2 col-12 row">
+
+                        @{
+
+                            try
+                            {
+
+                                List<HelpDesk.Models.Chamados> chamados = ViewBag.Chamados;
+
+                                foreach (var c in chamados)
+                                {
+
+
+                                    <div class="col-sm-12 col-md-6 col-lg-4">
+                                        <div class="card mb-4 shadow-sm">
+                                            <div class="card-body">
+
+                                                <h5 class="card-title"> @c.TipoAtendimento.Descricao</h5>
+                                                <h6 class="card-subtitle mb-2 text-muted">Numero do chamado : @c.Cod_Chamado</h6>
+                                                <h6 class="card-subtitle mb-2 text-muted">Data : @(c.Data.Value.Day + "/" + c.Data.Value.Month + "/" + c.Data.Value.Year)</h6>
+                                                @*<h6 class="card-subtitle mb-2 text-muted">Prioridade: @c.TipoAtendimento.Prioridade</h6>*@
+                                                <h6 class="card-subtitle mb-2 text-muted">Descrição</h6>
+                                                <p class="card-text"> @c.Desc_Chamado </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+
+                            }
+                            catch
+                            {
+
+                            }
+
+                        }
+
+                    </div>
+
+
+
+                   </div>
+
+    </div>
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/toastr.min.js"></script>
+    <script src="~/Scripts/MyToastr.js"></script>
+    <script src="~/Scripts/Dashboard.js"></script>
+</body>
+</html>

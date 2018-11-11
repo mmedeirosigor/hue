@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EvolutionModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Chamados">
+    <Key>
+      <PropertyRef Name="Cod_Chamado" />
+    </Key>
+    <Property Name="Cod_Chamado" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Desc_Chamado" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Data" Type="DateTime" Precision="0" />
+    <Property Name="Cod_Produto" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="Cod_Atendimento" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="TipoAtendimento" Relationship="Self.FK__Chamados__Cod_At__4316F928" FromRole="Chamados" ToRole="TipoAtendimento" />
+    <NavigationProperty Name="Produto" Relationship="Self.FK__Chamados__Cod_Pr__4222D4EF" FromRole="Chamados" ToRole="Produto" />
+  </EntityType>
+  <EntityType Name="Cliente">
+    <Key>
+      <PropertyRef Name="Cod_Cliente" />
+    </Key>
+    <Property Name="Cod_Cliente" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Nome" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Razao_Social" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CPF" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="CNPJ" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+    <Property Name="Email_Contato" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="End_Completo" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Telefone" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="Stat_Cliente" Type="Boolean" />
+    <Property Name="ID_usuario" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK__Cliente__ID_usua__44FF419A" FromRole="Cliente" ToRole="Usuario" />
+    <NavigationProperty Name="Produto" Relationship="Self.FK__Produto__Cod_Cli__3D5E1FD2" FromRole="Cliente" ToRole="Produto" />
+  </EntityType>
+  <EntityType Name="Funcionario">
+    <Key>
+      <PropertyRef Name="Cod_Funcionario" />
+    </Key>
+    <Property Name="Cod_Funcionario" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Nome_Completo" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Nome_Tratamento" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="CPF" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="End_Completo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Telefone" Type="String" MaxLength="11" FixedLength="false" Unicode="false" />
+    <Property Name="Email_Contato" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Stat_Funcionario" Type="Boolean" />
+    <Property Name="ID_usuario" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Usuario" Relationship="Self.FK__Funcionar__ID_us__440B1D61" FromRole="Funcionario" ToRole="Usuario" />
+  </EntityType>
+  <EntityType Name="Produto">
+    <Key>
+      <PropertyRef Name="Cod_Produto" />
+    </Key>
+    <Property Name="Cod_Produto" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Desc_Produto" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="Cod_Cliente" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Chamados" Relationship="Self.FK__Chamados__Cod_Pr__4222D4EF" FromRole="Produto" ToRole="Chamados" />
+    <NavigationProperty Name="Cliente" Relationship="Self.FK__Produto__Cod_Cli__3D5E1FD2" FromRole="Produto" ToRole="Cliente" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TipoAtendimento">
+    <Key>
+      <PropertyRef Name="Cod_Atendimento" />
+    </Key>
+    <Property Name="Cod_Atendimento" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Descricao" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="Data" Type="DateTime" Precision="0" />
+    <Property Name="Prioridade" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Chamados" Relationship="Self.FK__Chamados__Cod_At__4316F928" FromRole="TipoAtendimento" ToRole="Chamados" />
+  </EntityType>
+  <EntityType Name="Usuario">
+    <Key>
+      <PropertyRef Name="ID_usuario" />
+    </Key>
+    <Property Name="Acesso" Type="Boolean" />
+    <Property Name="ID_usuario" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Senha" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Cliente" Relationship="Self.FK__Cliente__ID_usua__44FF419A" FromRole="Usuario" ToRole="Cliente" />
+    <NavigationProperty Name="Funcionario" Relationship="Self.FK__Funcionar__ID_us__440B1D61" FromRole="Usuario" ToRole="Funcionario" />
+  </EntityType>
+  <Association Name="FK__Chamados__Cod_At__4316F928">
+    <End Role="TipoAtendimento" Type="Self.TipoAtendimento" Multiplicity="0..1" />
+    <End Role="Chamados" Type="Self.Chamados" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TipoAtendimento">
+        <PropertyRef Name="Cod_Atendimento" />
+      </Principal>
+      <Dependent Role="Chamados">
+        <PropertyRef Name="Cod_Atendimento" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Chamados__Cod_Pr__4222D4EF">
+    <End Role="Produto" Type="Self.Produto" Multiplicity="0..1" />
+    <End Role="Chamados" Type="Self.Chamados" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produto">
+        <PropertyRef Name="Cod_Produto" />
+      </Principal>
+      <Dependent Role="Chamados">
+        <PropertyRef Name="Cod_Produto" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Cliente__ID_usua__44FF419A">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="0..1" />
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="ID_usuario" />
+      </Principal>
+      <Dependent Role="Cliente">
+        <PropertyRef Name="ID_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Produto__Cod_Cli__3D5E1FD2">
+    <End Role="Cliente" Type="Self.Cliente" Multiplicity="0..1" />
+    <End Role="Produto" Type="Self.Produto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Cliente">
+        <PropertyRef Name="Cod_Cliente" />
+      </Principal>
+      <Dependent Role="Produto">
+        <PropertyRef Name="Cod_Cliente" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Funcionar__ID_us__440B1D61">
+    <End Role="Usuario" Type="Self.Usuario" Multiplicity="0..1" />
+    <End Role="Funcionario" Type="Self.Funcionario" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Usuario">
+        <PropertyRef Name="ID_usuario" />
+      </Principal>
+      <Dependent Role="Funcionario">
+        <PropertyRef Name="ID_usuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Evolution" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Chamados" EntityType="Self.Chamados" />
+    <EntitySet Name="Cliente" EntityType="Self.Cliente" />
+    <EntitySet Name="Funcionario" EntityType="Self.Funcionario" />
+    <EntitySet Name="Produto" EntityType="Self.Produto" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="TipoAtendimento" EntityType="Self.TipoAtendimento" />
+    <EntitySet Name="Usuario" EntityType="Self.Usuario" />
+    <AssociationSet Name="FK__Chamados__Cod_At__4316F928" Association="Self.FK__Chamados__Cod_At__4316F928">
+      <End Role="TipoAtendimento" EntitySet="TipoAtendimento" />
+      <End Role="Chamados" EntitySet="Chamados" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Chamados__Cod_Pr__4222D4EF" Association="Self.FK__Chamados__Cod_Pr__4222D4EF">
+      <End Role="Produto" EntitySet="Produto" />
+      <End Role="Chamados" EntitySet="Chamados" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Cliente__ID_usua__44FF419A" Association="Self.FK__Cliente__ID_usua__44FF419A">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Cliente" EntitySet="Cliente" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Produto__Cod_Cli__3D5E1FD2" Association="Self.FK__Produto__Cod_Cli__3D5E1FD2">
+      <End Role="Cliente" EntitySet="Cliente" />
+      <End Role="Produto" EntitySet="Produto" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Funcionar__ID_us__440B1D61" Association="Self.FK__Funcionar__ID_us__440B1D61">
+      <End Role="Usuario" EntitySet="Usuario" />
+      <End Role="Funcionario" EntitySet="Funcionario" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
